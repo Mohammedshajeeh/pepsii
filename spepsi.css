@@ -1,0 +1,662 @@
+
+
+*{
+    box-sizing: border-box;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+
+}
+body{
+    background-color:  #0065c3;
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+ 
+}
+header{
+    background-color: #0065c3;
+    width: 100%;
+    height: 5.5rem;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    
+}
+.shajeeh{
+    height: 6310px;
+    overflow-y:hidden;
+    overflow-x: hidden;
+
+}
+header .logo{
+    width: 10%;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin:1rem 2rem  2rem;
+    transition: transform 0.3s;
+}
+.logo img:hover{
+    transform: rotate(720deg);
+}
+.attributes{
+    display: flex;
+    align-items: center;
+  
+    width: 77%;
+    
+  
+}
+.attributes ul{
+    display: flex;
+   margin: -3rem;
+   
+}
+.attributes ul li{
+    display: flex;
+    margin: 1.5rem;
+    list-style: none;
+}
+.last{
+ width: 16%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.last p a{
+   border-style: solid;
+   padding: 0.3rem 1.5rem;
+   border-radius: 2rem;
+   border-color: #fff;
+   transition: 5ms;
+   
+}
+.last p:hover a{
+    background-color: #fff;
+    color: #0065c3;
+}
+.box1{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.box1 img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    right: 18px;
+    
+}
+.box1 .bottle{
+    
+    max-width: 870px;
+    max-height: 634px;
+    position: relative;
+    bottom: 550px;
+    right: 60px;
+   
+}
+.box1 .apple{
+    max-height: 500px;
+    max-width: 520px;
+    position: relative;
+    bottom: 49rem;
+    right: 11rem;
+}
+.box1 a{
+    position: relative;
+    bottom: 50rem;
+    right: 30rem;
+    border-style: solid;
+    border-radius: 2rem;
+    padding: 0.4rem 12px 0.4rem 12px;
+    border-color: #fff;
+}
+.box1 a:hover {
+    background-color: #fff;
+    color: #0065c3;
+}
+.box1 p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    bottom: 46rem;
+    left: 13rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.05rem;
+}
+.box2{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 43.2rem;
+   
+}
+.box2 .bottle2{
+    position: relative;
+    bottom: 3rem;
+    left: 6rem;
+    height: 48rem;
+    width: 58rem;
+}
+.box2 .taste{
+    position: relative;
+    bottom: 30rem;
+    right: 20rem;
+    width: 12rem;
+}
+.box2 .headline{
+    width: 486px;
+    max-width: 485px;
+    position: relative;
+    left: 52rem;
+    bottom: 39rem;
+}
+.box2 .try{
+    position: relative;
+    width: 350.9px;
+    max-width: 349.8px;
+    bottom: 36rem;
+    left: 26rem;
+}
+.box2 .innerBox1{
+    width: 7rem;
+    height: 4.5rem;
+    background-color:#0065c3;
+    margin: 2rem;
+    position: relative;
+    bottom: 38.9rem;
+    left: 69rem;
+    padding: 1px 9px;
+    opacity: 0.8;
+}
+.box2 .innerBox2{
+    width: 7rem;
+    height: 4.5rem;
+    background-color:#0065c3;
+    margin: 2rem;
+    position: relative;
+    bottom: 45.5rem;
+    left: 55rem;
+    padding: 1px 9px;
+    opacity: 0.8;
+}
+.innerBox1 img {
+    width: 4rem;
+    padding-left: 24px;
+    margin: -5px;
+}
+.innerBox2 img{
+    width: 4rem;
+    padding-left: 24px;
+    margin: -5px;
+}
+.box2 p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box2 #one{
+    position: relative;
+    bottom:26rem ;
+    left: 13rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.1px;
+}
+.box2 #two{
+    position: relative;
+    bottom:28.3rem ;
+    left: 27.5rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.1px;
+}
+.box3{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 43.5rem;
+}
+.box3 .bottle3{
+    width: 26rem;
+    position: relative;
+    bottom: 38rem;
+    left: 20rem;
+}
+.box3 .nitro{
+    width: 28rem;
+    position: relative;
+    bottom: 48.5rem;
+    left: 23rem;
+}
+.box3 h2{
+    position: relative;
+    bottom: 50rem;
+    left: 53.7rem;
+    letter-spacing: -1.5px;
+    font-size: 1.4rem;
+}
+.box3 a{
+    font-size: 1rem;
+    border-style: solid;
+    border-radius:2rem;
+    border-color: #fff;
+    padding: 0.3rem 1.5rem;
+    position: relative;
+    bottom: 50rem;
+    left: 59rem;
+}
+.box3 a:hover{
+    background-color: #fff;
+    color: #0065c3;
+}
+.box4{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 46.6rem;
+   
+    
+}
+.box4 .ibox1{
+    width: 25rem;
+    height: 17rem;
+    background-color: #0059ac;
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+    text-align: center;
+    
+}
+.box4 .ibox1 img{
+    width: 100%;
+    height: 88%;
+    
+}
+.box4 .ibox1 span{
+   position: relative;
+   top: 8px;
+}
+.box4 .ibox2{
+    width: 25rem;
+    height: 17rem;
+    background-color:#0059ac;
+    position: relative;
+    top: 8rem;
+    left: 4rem;
+    text-align: center;
+ 
+}
+.box4 .ibox2 img{
+    width: 100%;
+    height: 88%;
+}
+.box4 .ibox2 span{
+    position: relative;
+    top: 8px;
+ }
+.box4 .ibox3{
+    width: 63rem;
+    height: 45rem;
+    background-color: blue;
+    position: relative;
+    bottom: 33.9rem;
+    left: 33rem;
+}
+.box4 .ibox3 img{
+   height: 100%;
+    width: 100%;  
+}
+.box4 .ibox3 .badge{
+    width: 38rem;
+    height: 12rem;
+    position: relative;
+    bottom: 13rem;
+    left: 25rem;
+}
+.box5{
+    width: 100%;
+    height: 100vh;
+    background-color: #01519b;
+    position: relative;
+    bottom: 46.3rem;
+}
+.box5 .d1{
+    width: 90rem;
+    position: relative;
+    top: 6rem;
+}
+.box5 .d2{
+    width: 61rem;
+    height: 45rem;
+    position: relative;
+    bottom: 38.9rem;
+    left: 34rem;
+}
+
+.box5 .d3{
+    width: 27rem;
+    height: 20rem;
+    position: relative;
+    bottom: 58.4rem;
+    right: 58rem;
+}
+.box5 .d4{
+    width: 30rem;
+    position: relative;
+    bottom: 44rem;
+    left: 3rem;
+}
+.box6 video{
+    position: relative;
+    bottom: 46.5rem;
+    width: 100%;
+}
+.box7 img{
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    bottom: 46.5rem;
+}
+.box7 .bottle4{
+    width: 53rem;
+    height: 46rem;
+    position: relative;
+    bottom: 92.5rem;
+}
+.box7 .t1{
+    width: 32rem;
+    height: 26rem;
+    position: relative;
+    bottom: 104rem;
+    left: 4rem;
+}
+.box8 img{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    bottom: 92.8rem;
+}
+.box8 .bottle5{
+    width: 40rem;
+    height: 19rem;
+    position: relative;
+    bottom: 116rem;
+    left: 51rem;
+}
+.box8 h1{
+    font-size: 3.25rem;
+    line-height: 4.3rem;
+    font-weight: bolder;
+    position: relative;
+    bottom: 139rem;
+    left: 10rem;
+    letter-spacing: -3px;
+    word-spacing: -3px;
+}
+.box8 p{
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 141rem;
+    left: 10rem;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.box8 a{
+    border-style: solid;
+    border-radius:2rem;
+    border-color: #fff;
+    padding: 0.3rem 1.5rem;
+    position: relative;
+    bottom: 139rem;
+    left: 10rem;
+}
+.box8 a:hover{
+    background-color: #fff;
+    color: #0059ac;
+} 
+
+
+ 
+.box9{
+    width: 100%;
+    height: 380px;
+    background-color: #fff;
+    position: relative;
+    bottom: 134.2rem;
+   display: flex;
+    align-items: flex-end;
+
+}
+.box9 .h11{
+    color:#0065c3;
+    position: absolute;
+    bottom: 14rem;
+    left: 16rem;
+    font-size: 4.2rem;
+    font-weight: bold;
+    letter-spacing:-4px;
+    word-spacing: -3px;
+
+
+}
+.box9 .sm1{
+    width: 18rem;
+    height: 18rem;
+    position: relative;  
+    right: -2rem; 
+    transition: transform 0.2s;
+}
+.box9 .sm1:hover{
+    transform: rotate(1deg)scale(1.1);
+
+}
+.smImage{
+    width: 2rem;
+    position: relative;
+    bottom: 3rem;
+    left: 1rem;
+    opacity: 0.9;
+   
+}
+.box9 .sm2{
+    width: 18rem;
+    height: 18rem;
+    position: relative;
+    left: 2rem;
+    transition: transform 0.2s;
+}  
+.box9 .sm2:hover{
+    transform: rotate(1deg)scale(1.1);
+
+}
+.sm2Image{
+    width: 2rem;
+    position: relative;
+    bottom: 3rem;
+    left: 1rem;
+    opacity: 0.9;
+   
+}
+.box9 .sm3{
+    width: 18rem;
+    height: 18rem;
+    position: relative;
+    left: 2rem;
+    transition: transform 0.2s;
+}  
+.box9 .sm3:hover{
+    transform: rotate(1deg)scale(1.1);
+
+}
+.sm3Image{
+    width: 2rem;
+    position: relative;
+    bottom: 3rem;
+    left: 1rem;
+    opacity: 0.9;
+   
+}
+.box9 .sm4{
+    width: 18rem;
+    height: 18rem;
+    position: relative;
+    left: 2rem;
+    transition: transform 0.2s;
+}  
+.box9 .sm4:hover{
+    transform: rotate(1deg)scale(1.1);
+
+}
+.sm4Image{
+    width: 2rem;
+    position: relative;
+    bottom: 3rem;
+    left: 1rem;
+    opacity: 0.9;
+   
+}
+.box9 .sm5{
+    width: 18rem;
+    height: 18rem;
+    position: relative;
+    left: 2rem;
+    transition: transform 0.2s;
+}  
+.box9 .sm5:hover{
+    transform: rotate(1deg)scale(1.1);
+
+}
+.sm5Image{
+    width: 2rem;
+    position: relative;
+    bottom: 3rem;
+    left: 1rem;
+    opacity: 0.9;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #0065c3;
+    display: flex;
+    position: relative;
+    bottom: 134.2rem;
+    
+}
+footer .logoFoot{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+footer .logoFoot img{
+    width: 6.5rem;
+    position: relative;
+    left: 5rem;
+    transition: transform 0.3s;
+}
+.logoFoot img:hover{
+    transform: rotate(720deg);
+}
+footer .attributesFoot{
+    width: 50%;
+    display: flex;
+    align-items: center;
+   
+}
+footer ul{
+    position: relative;
+    left: 5rem;
+}
+footer ul li{
+    list-style: none;
+    line-height: 1.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+footer ul li:hover{
+    opacity: 0.5;
+}
+footer .lastFoot{
+    width: 30%;
+    margin: 2rem ;
+   
+}
+.lastFoot .lastB{
+    position: relative;
+    right: 2rem;
+    top: 4rem;
+    border-style: solid;
+    padding: 0.3rem 1.5rem;
+    border-radius: 2rem;
+    border-color: #fff;
+  
+}
+.lastFoot .lastB:hover{
+    background-color: #fff;
+    color: #0065c3;
+}
+.lastImg1{
+    width: 2rem;
+    position: relative;
+    top: 8.5rem;
+    left: 7rem;
+    float: left;
+    
+   
+}
+.lastImg1:hover{
+    opacity: 0.5;
+}
+.lastImg2{
+    width: 2rem;
+    position: relative;
+    top: 8.5rem;
+    left: 7rem;
+    margin-left: 1.5rem;
+    float: left;
+    
+}  
+.lastImg2:hover{
+    opacity: 0.5;
+}
+.lastImg3{
+    width: 2rem;
+    position: relative;
+    top: 8.7rem;
+    left: 7rem;
+    margin-left: 1.5rem;
+    float: left;
+   
+}  
+.lastImg3:hover{
+    opacity: 0.5;
+}
+.lastImg4{
+    width: 2rem;
+    position: relative;
+    top: 7.5rem;
+    left: 7rem;
+    margin-left: 1.5rem;
+    float: left;
+   
+}  
+.lastImg4:hover{
+    opacity: 0.5;
+}
+.lastImg5{
+    width: 2rem;
+    position: relative;
+    top: 7.5rem;
+    left: 7rem;
+    margin-left: 1.5rem;
+   float: left;
+}
+.lastImg5:hover{
+    opacity: 0.5;
+}
